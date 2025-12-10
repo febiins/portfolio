@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+instance/
+
+# Flask-specific
+.webassets-cache/
+
+# IDE-specific files (e.g., VS Code)
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Database files (if using SQLite)
+*.db
+*.sqlite
