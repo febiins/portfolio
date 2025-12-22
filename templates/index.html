@@ -12,12 +12,13 @@
 
         <div class="mt-4">
             <a href="https://github.com/febiins" class="btn btn-primary btn-lg me-2" target="_blank">GitHub</a>
-            <a href="https://www.linkedin.com/in/febin-sunny-b226b4320" class="btn btn-outline-dark btn-lg" target="_blank" id="linkedin">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/febin-sunny-b226b4320"
+               class="btn btn-outline-dark btn-lg"
+               target="_blank"
+               id="linkedin">LinkedIn</a>
         </div>
     </div>
 </section>
-<!-- END HERO -->
-
 
 <!-- ABOUT SECTION -->
 <section id="about" class="container py-5">
@@ -27,44 +28,102 @@
         Motivated MCA student with strong passion for web development and building
         dynamic, user-focused applications.
     </p>
-
-    <h4 class="mt-4">Education</h4>
-    <ul>
-        <li><strong>BCA (2022–2025)</strong> — MG University, Kottayam</li>
-        <li><strong>Plus Two – 96.5%</strong> — St. Anne’s HSS, Kuriand</li>
-        <li><strong>SSLC – Full A+</strong> — St. Anne’s HSS, Kuriand</li>
-    </ul>
 </section>
 
+<!-- EDUCATION SECTION (CARDS) -->
+<section id="education" class="container py-5">
+    <h2 class="section-title">Education</h2>
+
+    <div class="row g-4">
+
+        <!-- BCA -->
+        <div class="col-md-4">
+            <div class="project-card p-4 h-100">
+                <h5>
+                    <i class="bi bi-mortarboard-fill me-2"></i>
+                    Bachelor of Computer Applications (BCA)
+                </h5>
+                <p class="text-muted mb-1">MG University, Kottayam</p>
+                <p class="mb-1"><strong>2022 – 2025</strong></p>
+                <p>Focused on programming, databases, and web technologies.</p>
+                <p>Passed with overall score of 75%.</p>
+            </div>
+        </div>
+
+        <!-- Plus Two -->
+        <div class="col-md-4">
+            <div class="project-card p-4 h-100">
+                <h5>
+                    <i class="bi bi-mortarboard-fill me-2"></i>
+                    Higher Secondary (Plus Two)
+                </h5>
+                <p class="text-muted mb-1">St. Anne’s HSS, Kuriand</p>
+                <p class="mb-1"><strong>2020 – 2022</strong></p>
+                <p>Bio Science stream with <strong>96.5%</strong> overall score.</p>
+            </div>
+        </div>
+
+        <!-- SSLC -->
+        <div class="col-md-4">
+            <div class="project-card p-4 h-100">
+                <h5>
+                    <i class="bi bi-mortarboard-fill me-2"></i>
+                    SSLC (10th Grade)
+                </h5>
+                <p class="text-muted mb-1">St. Anne’s HSS, Kuriand</p>
+                <p class="mb-1"><strong>2020</strong></p>
+                <p>State syllabus with <strong>Full A+</strong> grade.</p>
+            </div>
+        </div>
+
+    </div>
+</section>
 
 <!-- SKILLS SECTION -->
 <section id="skills" class="container py-5">
     <h2 class="section-title">Skills</h2>
 
-    <div class="row">
+    <div class="row g-4">
+
+        <!-- Programming Languages -->
         <div class="col-md-4">
-            <ul>
-                <li>Java</li>
-                <li>Django</li>
-                <li>SQL</li>
-            </ul>
+            <div class="project-card p-4 h-100">
+                <h5><i class="bi bi-code-slash me-2"></i>Programming</h5>
+                <ul class="mt-3">
+                    <li>Java</li>
+                    <li>Python</li>
+                </ul>
+            </div>
         </div>
 
+        <!-- Web Technologies -->
         <div class="col-md-4">
-            <ul>
-                <li>HTML / CSS</li>
-                <li>JavaScript</li>
-            </ul>
+            <div class="project-card p-4 h-100">
+                <h5><i class="bi bi-globe me-2"></i>Web Technologies</h5>
+                <ul class="mt-3">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Django</li>
+                    <li>Spring Boot</li>
+                </ul>
+            </div>
         </div>
 
+        <!-- Tools & Soft Skills -->
         <div class="col-md-4">
-            <ul>
-                <li>Git & GitHub</li>
-                <li>Teamwork</li>
-                <li>Leadership</li>
-                <li>Communication</li>
-            </ul>
+            <div class="project-card p-4 h-100">
+                <h5><i class="bi bi-tools me-2"></i>Tools & Skills</h5>
+                <ul class="mt-3">
+                    <li>Git & GitHub</li>
+                    <li>SQL</li>
+                    <li>Teamwork</li>
+                    <li>Leadership</li>
+                    <li>Communication</li>
+                </ul>
+            </div>
         </div>
+
     </div>
 </section>
 
@@ -83,8 +142,7 @@
 
                 <p>
                     A face recognition application capable of detecting and identifying faces in
-                    real time using Haar Cascades and the LBPH algorithm. Includes dataset creation,
-                    model training, live detection, and attendance marking features.
+                    real time using Haar Cascades and the LBPH algorithm.
                 </p>
 
                 <a href="https://github.com/febiins/facerecognition.git"
@@ -102,10 +160,8 @@
                 <p class="text-muted">Django / Bootstrap / SQLite</p>
 
                 <p>
-                    A collaborative team project where I served as the <strong>Backend Developer</strong>.
-                    I implemented core backend functionalities including user authentication,
-                    review system, database models, CRUD operations, and search integration.
-                    The frontend and UI were handled by other team members.
+                    Group project where I served as the <strong>Backend Developer</strong>,
+                    implementing authentication, reviews, models, CRUD, and search.
                 </p>
 
                 <a href="https://github.com/harrree/StarShip.git"
@@ -119,37 +175,68 @@
     </div>
 </section>
 
-
 <!-- CONTACT SECTION -->
 <section id="contact" class="contact-section">
     <div class="container">
         <h2 class="section-title text-center">Contact Me</h2>
+        <p class="text-center text-muted mb-4">
+            Feel free to reach out — I’ll get back to you as soon as possible.
+        </p>
 
         <div class="row justify-content-center">
             <div class="col-md-6">
 
-                <form method="POST">
+                <!-- CONTACT FORM (Formspree) -->
+                <form
+                    action="https://formspree.io/f/xeejlvdg"
+                    method="POST"
+                    novalidate
+                >
+
                     <div class="mb-3">
                         <label class="form-label">Your Name</label>
-                        <input name="name" class="form-control" required>
+                        <input
+                            type="text"
+                            name="name"
+                            class="form-control"
+                            placeholder="Enter your name"
+                            required>
                     </div>
 
                     <div class="mb-3">
-                        <label class="form-label">Email</label>
-                        <input name="email" type="email" class="form-control" required>
+                        <label class="form-label">Email Address</label>
+                        <input
+                            type="email"
+                            name="email"
+                            class="form-control"
+                            placeholder="example@email.com"
+                            required>
                     </div>
 
                     <div class="mb-3">
                         <label class="form-label">Message</label>
-                        <textarea name="message" rows="4" class="form-control" required></textarea>
+                        <textarea
+                            name="message"
+                            rows="4"
+                            class="form-control"
+                            placeholder="Write your message here..."
+                            required></textarea>
                     </div>
 
-                    <button class="btn btn-primary w-100">Send Message</button>
+                    <!-- Optional Formspree settings -->
+                    <input type="hidden" name="_subject" value="New Portfolio Contact Message">
+                    <input type="hidden" name="_template" value="table">
+
+                    <button type="submit" class="btn btn-primary w-100">
+                        <i class="bi bi-send me-1"></i> Send Message
+                    </button>
+
                 </form>
 
             </div>
         </div>
     </div>
 </section>
+
 
 {% endblock %}
